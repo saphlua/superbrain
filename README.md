@@ -1,4 +1,3 @@
-
 # superbrain
 
 Superbrain is a brainf*** interpreter with optional extras.
@@ -32,5 +31,7 @@ The augmented version supplied here contains eight extra characters, including t
 | `\|` | Takes the value of the cells immediately to the left and right, ORs them, and puts the value in the active cell. |
 
 ## Endangered Features
+
+//Endangered features are features that aren't considered valuable enough to be standard in the interpreter. They still exist and support for their accessibility will be accessible via `--legacy:\[version\].`//
 
 - Remove AND and OR operations from standard set (too intuitive); replace with multi-dimensional operators.
