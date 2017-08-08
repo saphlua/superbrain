@@ -35,8 +35,8 @@ The augmented version supplied here contains eight extra characters, including t
 | `&` | `!` | Freezes the pointer. All requests to move it will be tallied. When this symbol is used again, the pointer will jump in one step. |
 | `\|` | `#` | Debug symbol. Will immediately jump to a step-through mode where all states can be viewed. |
 
-## Endangered Features
+## Removed Features
 
-*Endangered features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
+*Revmoed features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
 
-- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ pointer locks.
+- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ pointer lock and the debug instruction which is standard in most implementations.
