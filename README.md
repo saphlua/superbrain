@@ -30,8 +30,13 @@ The augmented version supplied here contains eight extra characters, including t
 | `&` | Takes the value of the cells immediately to the left and right, ANDs them, and puts the value in the active cell. |
 | `\|` | Takes the value of the cells immediately to the left and right, ORs them, and puts the value in the active cell. |
 
+| Replaced Instruction | New Instruction | Action |
+| :---: | :---: | --- |
+| `&` | `!` | Freezes the pointer. All requests to move it will be tallied. When this symbol is used again, the pointer will jump in one step. |
+| `\|` | `#` | Debug symbol. Will immediately jump to a step-through mode where all states can be viewed. |
+
 ## Endangered Features
 
 *Endangered features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
 
-- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ freezer loops.
+- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ pointer locks.
