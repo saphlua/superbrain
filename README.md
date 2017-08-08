@@ -34,4 +34,4 @@ The augmented version supplied here contains eight extra characters, including t
 
 *Endangered features are features that aren't considered valuable enough to be standard in the interpreter. They still exist and support for their accessibility will be accessible via `--legacy:[version]`.*
 
-- Remove AND and OR operations from standard set (too intuitive); replace with multi-dimensional operators.
+- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ freezer loops.
