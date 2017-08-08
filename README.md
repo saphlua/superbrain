@@ -38,6 +38,10 @@ Write a BF file in your friendly neighborhood text editor, open a shell, and use
 
 This has only been tested on Windows.
 
+## Why is this one better than the eight thousand other BF interpreters?
+
+It's not. Sorry. It works and stuff (I think), so there.
+
 ## Removed Features
 
 *Removed features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
