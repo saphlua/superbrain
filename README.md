@@ -1,4 +1,4 @@
-# superbrain
+ # superbrain
 
 Superbrain is a brainf*** interpreter with optional extras.
 
@@ -30,13 +30,21 @@ The augmented version supplied here contains eight extra characters, including t
 | `&` | Takes the value of the cells immediately to the left and right, ANDs them, and puts the value in the active cell. |
 | `\|` | Takes the value of the cells immediately to the left and right, ORs them, and puts the value in the active cell. |
 
+## How to Use
+
+Write a BF file in your friendly neighborhood text editor, open a shell, and use bfi.py as a command with the filename and path as the only argument. You will need Python 3.5 or later installed.
+
+`bfi.py hell.bf`
+
+This has only been tested on Windows.
+
+## Removed Features
+
+*Removed features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
+
+- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ pointer lock and the debug instruction which is standard in most implementations.
+
 | Replaced Instruction | New Instruction | Action |
 | :---: | :---: | --- |
 | `&` | `!` | Freezes the pointer. All requests to move it will be tallied. When this symbol is used again, the pointer will jump in one step. |
 | `\|` | `#` | Debug symbol. Will immediately jump to a step-through mode where all states can be viewed. |
-
-## Removed Features
-
-*Revmoed features are features that aren't considered ~valuable~ confusing enough to be standard in the interpreter. They still exist and will be accessible via the `--legacy:[version]` command.*
-
-- Remove AND and OR operations from standard set (too intuitive); replace with ~multi-dimensional operators~ pointer lock and the debug instruction which is standard in most implementations.
