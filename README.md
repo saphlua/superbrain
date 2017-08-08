@@ -1,3 +1,4 @@
+
 # superbrain
 
 Superbrain is a brainf*** interpreter with optional extras.
@@ -29,3 +30,7 @@ The augmented version supplied here contains eight extra characters, including t
 | `~` | Inverts the value of the active cell. (NOT logic operation) |
 | `&` | Takes the value of the cells immediately to the left and right, ANDs them, and puts the value in the active cell. |
 | `\|` | Takes the value of the cells immediately to the left and right, ORs them, and puts the value in the active cell. |
+
+## Endangered Features
+
+- Remove AND and OR operations from standard set (too intuitive); replace with multi-dimensional operators.
