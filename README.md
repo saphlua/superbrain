@@ -2,7 +2,7 @@
 
 Superbrain is a brainf*** interpreter with optional extras.
 
-Brainf*** uses eight characters to write incredibly simple instructions. It is Turing-complete.
+Brainf*** uses eight characters to write incredibly simple instructions. It is Turing-complete, meaning it can theoretically complete any task expressible by a computer (given unlimited memory.) It is also referred to as a 'Turing tarpit', or a language which fulfills Turing-completeness while being as esoteric, minimalist, and confusing as possible.
 
 Information is stored on a 'tape' which is either finite (usually 30000 cells) or infinite. The tape consists of cells with indices starting at 0. Each cell contains eight bits of information. A pointer which starts at cell 0 is pushed back and forth along the tape, reading and writing values. A simple loop block can be used to repeat instructions based on a condition.
 
