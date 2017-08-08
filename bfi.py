@@ -4,6 +4,8 @@ from clint.textui import colored, puts
 import re
 import math
 
+version = "1.0"
+
 helpstr = """This is my take on a brainf--- interpreter. It can use all eleven symbols
 of pbrain (the procedural equivalent) as well as five symbols unique to this parser.
 The eight extra symbols are called 'modern' or, more accurately, 'cheating'. The eight
